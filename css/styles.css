@@ -29,11 +29,13 @@
     --gray30: #212121;
     --gray20: #212429;
     --gray10: #616161;
+    --bacode: #FEC62E;
 }
 
 body {
     color: var(--gray30);
-    font-family: beto;
+    /*font-family: charter;*/
+    font-family: 'Roboto', sans-serif;
 }
 a {
     color: var(--gray30);
@@ -73,3 +75,11 @@ h3 {
     font-size: 1.5em;
 }
 
+pre {
+    background: var(--bacode);
+}
+
+.hero {
+    background-image: linear-gradient(to top, rgba(255,255,255,.3), transparent), url(../images/pather.png);
+    height: 350px;
+}
